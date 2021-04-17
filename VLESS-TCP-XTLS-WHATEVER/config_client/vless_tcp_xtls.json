@@ -4,7 +4,7 @@
     },
     "inbounds": [
         {
-            "port": 10800,
+            "port": 1081,
             "listen": "127.0.0.1",
             "protocol": "socks",
             "settings": {
@@ -18,11 +18,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "example.com", // 换成你的域名或服务器 IP（发起请求时无需解析域名了）
+                        "address": "tj.41432.xyz", 
                         "port": 443,
                         "users": [
                             {
-                                "id": "", // 填写你的 UUID
+                                "id": "89163dc8-4252-c877-78e0-bfe63fcab387",
                                 "flow": "xtls-rprx-direct",
                                 "encryption": "none",
                                 "level": 0
@@ -33,9 +33,9 @@
             },
             "streamSettings": {
                 "network": "tcp",
-                "security": "xtls", // 需要使用 XTLS
+                "security": "xtls", 
                 "xtlsSettings": {
-                    "serverName": "example.com" // 换成你的域名
+                    "serverName": "tj.41432.xyz"
                 }
             }
         }
