@@ -9,7 +9,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "", // 填写你的 UUID
+                        "id": "89163dc8-4252-c877-78e0-bfe63fcab387", 
                         "level": 0,
                         "email": "tphz@yahoo.com"
                     }
@@ -49,7 +49,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "", // 填写你的 UUID
+                        "id": "89163dc8-4252-c877-78e0-bfe63fcab387",
                         "level": 0,
                         "email": "tphz@yahoo.com"
                     }
